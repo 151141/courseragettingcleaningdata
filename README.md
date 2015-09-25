@@ -9,5 +9,14 @@ Put the script run_analysis.R in this repo into the same unzipped directory as t
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement, i.e. those feature names that have "mean()" and "std()" as indicated in features.txt .
 3. Uses descriptive activity names to name the activities in the data set. We replace the activity numbers (1-6) by the corresponding names found in activity_labels.txt .
-4. Appropriately labels the data set with descriptive variable names. We use names from features.txt, but replace "t" and "f" by "Time" and "Freq" (abbreviation for frequency), and remove the unnecessary dashes and round brackets.
+4. Appropriately labels the data set with descriptive variable names. We use names from features.txt, but replace "t" and "f" by "Time" and "Freq" (abbreviation for frequency), and remove the unnecessary dashes and round brackets. We also notice that "BodyBody" in the feature names could in fact be typograhical error when compared to other feature names, hence we replace "BodyBody" by "Body".
 5. From the data set in step 4, creates a second, independent tidy data set (tidydata.txt) with the average of each variable for each activity and each subject.
+
+The tidy data set can be read into R for inspection with the following lines:
+```{r}
+chkdf <- read.table(file="tidydata.txt",header=TRUE)
+chkdf
+```
+
+A code book (Codebook.md) describing the variables in tidydata.txt can be found also in this repo.
+
