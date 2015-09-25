@@ -1,7 +1,7 @@
 Course project for Getting and Cleaning Data (Coursera)
 ========================================================
 
-This project demonstrates how to collect, work with and clean a data set. We work with data collected from the accelerometers from the Samsung Galaxy S smart phone. Data of the project are found at
+This project demonstrates how to collect, work with and clean a data set. We work with data collected from the accelerometers from the Samsung Galaxy S smart phone [1]. Data of the project are found at
 [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
 Put the script run_analysis.R in this repo into the same unzipped directory as the data of the project. The script will create a tidy data set called "tidydata.txt" following the following steps:
@@ -18,5 +18,9 @@ chkdf <- read.table(file="tidydata.txt",header=TRUE)
 chkdf
 ```
 
-A code book (Codebook.md) describing the variables in tidydata.txt can be found also in this repo.
+A code book (Codebook.md) describing the variables in tidydata.txt can be found in this repo.
 
+
+# Reference
+================
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
