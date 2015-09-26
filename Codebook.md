@@ -19,102 +19,102 @@ The following gives information on each column of the data set.
 Integer from 1 to 30. Labels of the subjects that took part in the study.
 
 ## 2. Activity
-Strings. 6 types of activities that subjects have performed: laying, sitting, standing, walking, walking downstairs and walking upstairs.
+Factor. 6 types of activities that subjects have performed: laying, sitting, standing, walking, walking downstairs and walking upstairs.
    
 ## 3-5. TimeBodyAccMean-XYZ
-Floats. Dimensionless. Average of the mean of time-domain body acceleration along X,Y,Z directions.
+Numeric. Dimensionless. Average of the mean of time-domain body acceleration along X,Y,Z directions.
 
 ## 6-8. TimeBodyAccStd-XYZ
-Floats. Dimensionless. Average of the standard deviation of time-domain body acceleration along X,Y,Z directions.
+Numeric. Dimensionless. Average of the standard deviation of time-domain body acceleration along X,Y,Z directions.
 
 ## 9-11. TimeGravityAccMean-XYZ
-Floats. Dimensionless. Average of the mean of time-domain gravity acceleration along X,Y,Z directions.
+Numeric. Dimensionless. Average of the mean of time-domain gravity acceleration along X,Y,Z directions.
 
 ## 12-14. TimeGravityAccStd-XYZ
-Floats. Dimensionless. Average of the standard deviation of time-domain gravity acceleration along X,Y,Z directions.
+Numeric. Dimensionless. Average of the standard deviation of time-domain gravity acceleration along X,Y,Z directions.
 
 ## 15-17. TimeBodyAccJerkMean-XYZ
-Floats. Dimensionless. Average of the mean of time-domain body jerk signals along X,Y,Z directions.
+Numeric. Dimensionless. Average of the mean of time-domain body jerk signals along X,Y,Z directions.
 
 ## 18-20. TimeBodyAccJerkStd-XYZ
-Floats. Dimensionless. Average of the standard deviation of time-domain body jerk signals along X,Y,Z directions.
+Numeric. Dimensionless. Average of the standard deviation of time-domain body jerk signals along X,Y,Z directions.
 
 ## 21-23. TimeBodyGyroMean-XYZ
-Floats. Dimensionless. Average of the mean of time-domain gyroscope signals along X,Y,Z directions.
+Numeric. Dimensionless. Average of the mean of time-domain gyroscope signals along X,Y,Z directions.
 
 ## 24-26. TimeBodyGyroStd-XYZ
-Floats. Dimensionless. Average of the standard deviation of time-domain gyroscope signals along X,Y,Z directions.
+Numeric. Dimensionless. Average of the standard deviation of time-domain gyroscope signals along X,Y,Z directions.
 
 ## 27-29. TimeBodyGyroJerkMean-XYZ
-Floats. Dimensionless. Average of the mean of time-domain gyroscope jerk signals along X,Y,Z directions.
+Numeric. Dimensionless. Average of the mean of time-domain gyroscope jerk signals along X,Y,Z directions.
 
 ## 30-32. TimeBodyGyroJerkStd-XYZ
-Floats. Dimensionless. Average of the standard deviation of time-domain gyroscope jerk signals along X,Y,Z directions.
+Numeric. Dimensionless. Average of the standard deviation of time-domain gyroscope jerk signals along X,Y,Z directions.
 
 ## 33. TimeBodyAccMagMean
-Floats. Dimensionless. Average of the mean of the magnitude of the time-domain body acceleration signals.
+Numeric. Dimensionless. Average of the mean of the magnitude of the time-domain body acceleration signals.
 
 ## 34. TimeBodyAccMagStd
-Floats. Dimensionless. Average of the standard deviation of the magnitude of the time-domain body acceleration signals.
+Numeric. Dimensionless. Average of the standard deviation of the magnitude of the time-domain body acceleration signals.
 
 ## 35. TimeGravityAccMagMean
-Floats. Dimensionless. Average of the mean of the magnitude of the time-domain gravity acceleration signals.
+Numeric. Dimensionless. Average of the mean of the magnitude of the time-domain gravity acceleration signals.
 
 ## 36. TimeGravityAccMagStd
-Floats. Dimensionless. Average of the standard deviation of the magnitude of the time-domain gravity acceleration signals.
+Numeric. Dimensionless. Average of the standard deviation of the magnitude of the time-domain gravity acceleration signals.
 
 ## 37. TimeBodyAccJerkMagMean
-Floats. Dimensionless. Average of the mean of the magnitude of the time-domain body jerk signals.
+Numeric. Dimensionless. Average of the mean of the magnitude of the time-domain body jerk signals.
 
 ## 38. TimeBodyAccJerkMagStd
-Floats. Dimensionless. Average of the standard deviation of the magnitude of the time-domain body jerk signals.
+Numeric. Dimensionless. Average of the standard deviation of the magnitude of the time-domain body jerk signals.
 
 ## 39. TimeBodyGyroMagMean
-Floats. Dimensionless. Average of the mean of the magnitude of the time-domain gyroscope signals.
+Numeric. Dimensionless. Average of the mean of the magnitude of the time-domain gyroscope signals.
 
 ## 40. TimeBodyGyroMagStd
-Floats. Dimensionless. Average of the standard deviation of the magnitude of the time-domain gyroscope signals.
+Numeric. Dimensionless. Average of the standard deviation of the magnitude of the time-domain gyroscope signals.
 
 ## 41. TimeBodyGyroJerkMagMean
-Floats. Dimensionless. Average of the mean of the magnitude of the time-domain gyroscope jerk signals.
+Numeric. Dimensionless. Average of the mean of the magnitude of the time-domain gyroscope jerk signals.
 
 ## 42. TimeBodyGyroJerkMagStd
-Floats. Dimensionless. Average of the standard deviation of the magnitude of the time-domain gyroscope jerk signals.
+Numeric. Dimensionless. Average of the standard deviation of the magnitude of the time-domain gyroscope jerk signals.
 
 
 ## 43-45. FreqBodyAccMean-XYZ
-Floats. Dimensionless. Average of the mean of frequency-domain body acceleration along X,Y,Z directions.
+Numeric. Dimensionless. Average of the mean of frequency-domain body acceleration along X,Y,Z directions.
 
 ## 46-48. FreqBodyAccStd-XYZ
-Floats. Dimensionless. Average of the standard deviation of frequency-domain body acceleration along X,Y,Z directions.
+Numeric. Dimensionless. Average of the standard deviation of frequency-domain body acceleration along X,Y,Z directions.
 
 ## 49-51. FreqBodyAccJerkMean-XYZ
-Floats. Dimensionless. Average of the mean of frequency-domain body jerk signals along X,Y,Z directions.
+Numeric. Dimensionless. Average of the mean of frequency-domain body jerk signals along X,Y,Z directions.
 
 ## 52-54. FreqBodyAccJerkStd-XYZ
-Floats. Dimensionless. Average of the standard deviation of frequency-domain body jerk signals along X,Y,Z directions.
+Numeric. Dimensionless. Average of the standard deviation of frequency-domain body jerk signals along X,Y,Z directions.
 
 ## 55-57. FreqBodyGyroMean-XYZ
-Floats. Dimensionless. Average of the mean of frequency-domain gyroscope signals along X,Y,Z directions.
+Numeric. Dimensionless. Average of the mean of frequency-domain gyroscope signals along X,Y,Z directions.
 
 
 ## 58-60. FreqBodyGyroStd-XYZ
-Floats. Dimensionless. Average of the standard deviation of frequency-domain gyroscope signals along X,Y,Z directions.
+Numeric. Dimensionless. Average of the standard deviation of frequency-domain gyroscope signals along X,Y,Z directions.
 
 ## 61. FreqBodyAccMagMean
-Floats. Dimensionless. Average of the mean of the magnitude of the frequency-domain body acceleration signals.
+Numeric. Dimensionless. Average of the mean of the magnitude of the frequency-domain body acceleration signals.
 
 ## 62. FreqBodyAccMagStd
-Floats. Dimensionless. Average of the standard deviation of the magnitude of the frequency-domain body acceleration signals.
+Numeric. Dimensionless. Average of the standard deviation of the magnitude of the frequency-domain body acceleration signals.
 
 ## 63. FreqBodyAccJerkMagMean
-Floats. Dimensionless. Average of the mean of the magnitude of frequency-domain body jerk signals.
+Numeric. Dimensionless. Average of the mean of the magnitude of frequency-domain body jerk signals.
 
 ## 64. FreqBodyAccJerkMagStd
-Floats. Dimensionless. Average of the standard deviation of the magnitude of frequency-domain body jerk signals.
+Numeric. Dimensionless. Average of the standard deviation of the magnitude of frequency-domain body jerk signals.
 
 ## 65. FreqBodyGyroMagMean
-Floats. Dimensionless. Average of the mean of the magnitude of frequency-domain gyroscope signals.
+Numeric. Dimensionless. Average of the mean of the magnitude of frequency-domain gyroscope signals.
 
 ## 66. FreqBodyGyroMagStd
-Floats. Dimensionless. Average of the standard deviation of the magnitude of frequency-domain gyroscope signals.
+Numeric. Dimensionless. Average of the standard deviation of the magnitude of frequency-domain gyroscope signals.
